@@ -1,0 +1,40 @@
+
+.main{
+    width: 100%;
+}
+h1{
+text-align: center;
+}
+.block{
+ width: 25%;
+ height: 130px;
+ border: 4px solid gray;
+ display: inline block;
+ margin: 10px;
+}
+
+.submain{
+    display: flex;
+}
+ 
+@media(min-width: 760px) and (max-width: 1199px) {
+    .block{
+        width: 40%;
+    }
+    .submain{
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 100%;
+    }
+}
+@media(min-width: 1px) and (max-width: 759px) {
+    .block{
+        width: 80%;
+    }
+    .submain{
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+}

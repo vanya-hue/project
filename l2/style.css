@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 254, 166);
+}
+p {color:blue}
+selector h1 , h2{color:blueviolet}
+h1,h2
+{
+    color:rgb(139, 168, 35)
+}
+ol
+{
+    color:rgb(206, 127, 0)
+}
+a
+{
+    color:red
+}
+
+
+.text{
+display:flex;
+justify-content:space-around;
+}
+
+.text p{
+border: 30px double whitesmoke;
+
+}
+
